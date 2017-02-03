@@ -1,0 +1,44 @@
+{
+  "name": "koa-2-error-handler",
+  "description": "Error reponses for koa 2",
+  "repository": "evheniy/koa-2-error-handler",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node --harmony ./bin/www",
+    "test": "npm run security && npm run clear && npm run lint && npm run coverage",
+    "lint": "./node_modules/.bin/eslint index.js tests",
+    "coverage": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- tests --recursive",
+    "clear": "./node_modules/.bin/rimraf coverage",
+    "security": "./node_modules/.bin/nsp check"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "keywords": [
+    "koa2",
+    "middleware",
+    "error",
+    "page"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "http-status-codes": "^1.1.6",
+    "koa": "^2.0.0-alpha.7",
+    "koa-router": "^7.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "debug": "^2.6.0",
+    "eslint": "^3.14.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.2.0",
+    "nsp": "^2.6.2",
+    "rimraf": "^2.5.4",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  },
+  "license": "MIT"
+}
