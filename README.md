@@ -8,7 +8,7 @@ Koa.js 2 error handler
 Description
 -----------
 
-Error response middleware for koa 2 supporting.
+Error handler for Koa 2 application.
 
 
 Installation

@@ -8,7 +8,7 @@ const middleware = require('./../index').error;
 chai.use(chaiHttp);
 let app;
 
-describe('Error handler', () => {
+describe('Error test', () => {
 
     beforeEach( async () => {
         app = new Koa();
