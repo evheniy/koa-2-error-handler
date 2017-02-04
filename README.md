@@ -3,6 +3,7 @@ Koa.js 2 error handler
 
 
 [![Build Status](https://travis-ci.org/evheniy/koa-2-error-handler.svg?branch=master)](https://travis-ci.org/evheniy/koa-2-error-handler)
+[![Coverage Status](https://coveralls.io/repos/github/evheniy/koa-2-error-handler/badge.svg?branch=master)](https://coveralls.io/github/evheniy/koa-2-error-handler?branch=master)
 
 
 Description
