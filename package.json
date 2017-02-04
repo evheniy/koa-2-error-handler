@@ -2,7 +2,7 @@
   "name": "koa-2-error-handler",
   "description": "Error handler for Koa 2 application.",
   "repository": "evheniy/koa-2-error-handler",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "start": "node --harmony ./bin/www",
     "test": "npm run security && npm run clear && npm run lint && npm run coverage",
@@ -22,7 +22,8 @@
     "page"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "lib"
   ],
   "dependencies": {
     "http-status-codes": "^1.1.6"
