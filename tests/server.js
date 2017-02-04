@@ -102,5 +102,17 @@ describe('Server test', () => {
         });
         server.emit('error', error);
     });
+
+    it('it should test error event with code: EADDRINUSE', done => {
+        const error = new Error('test');
+        error.syscall = 'listen';
+        error.code = 'EADDRINUSE';
+        server.address = () => ({ port: 3000});
+        serverHandler(server, null, err => {
+            expect(err).to.be.equal(error);
+            done();
+        });
+        server.emit('error', error);
+    });
     
 });
