@@ -2,9 +2,8 @@
   "name": "koa-2-error-handler",
   "description": "Error handler for Koa 2 application.",
   "repository": "evheniy/koa-2-error-handler",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
-    "start": "node --harmony ./bin/www",
     "test": "npm run security && npm run clear && npm run lint && npm run coverage",
     "lint": "./node_modules/.bin/eslint index.js tests lib",
     "coverage": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- tests --recursive",
