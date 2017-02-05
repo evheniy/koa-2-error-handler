@@ -9,7 +9,7 @@ Koa.js 2 error handler
 Description
 -----------
 
-Error handler for Koa 2 application.
+Error handler for Koa 2 application
 
 
 Installation
@@ -35,7 +35,7 @@ Or we can update response error message:
         ctx.body = {
             message: err.message
         };
-        logger.error(err);
+        console.error(err);
     }));
 
 
